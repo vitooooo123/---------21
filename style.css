@@ -1,0 +1,172 @@
+
+#divone{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   
+    overflow: hidden;
+    cursor: pointer;
+}
+body{
+    height: 2000px;
+}
+#btnone{
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    
+    cursor: pointer;
+    background-color: rgb(7, 21, 44);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+  
+}
+#btntwo{
+    margin-top: 10px;
+    display: none;
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+   
+    cursor: pointer;
+    background-color: rgb(188, 18, 18);
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+   
+}
+.btntwo{
+    display: none!important;
+}
+.btnon{
+    display: inline-block!important;
+}
+
+.cont{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    font-size: 30px;
+    cursor: pointer;  
+    margin-right: 10px;
+}
+.hello{
+    display: none;
+}
+
+::placeholder{
+   visibility: hidden;
+   color: black;
+
+}
+.visible{
+    visibility: visible;
+    color: black;
+}
+form{
+   margin-left: auto;
+   margin-right: auto;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 20px;
+    transition: 1s;
+    overflow: hidden;
+}
+input{
+  display: none;
+    border: none;
+    outline: none;
+    background-color:transparent;   
+}
+.inputon{
+    display: inline-block;
+    width: 300px;
+     border-bottom: 1px solid black;
+     margin-left: auto;
+     margin-right: auto;  
+   
+}
+.inputon::placeholder{
+    visibility: visible;
+    color: black;
+    font-size: 13px;
+}
+
+
+
+.formtwo{
+    width: 400px;
+}
+.textes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 700px;
+    height: 400px;
+    transition: 1s;
+
+}
+.show{
+    width: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+.dnone{
+    display: none;
+}
+.title{
+    color: white;
+    text-transform: capitalize;
+}
+.ansver{
+    color: white;
+    text-transform: capitalize;
+}
+
+.htwo{
+    display: none;
+    color: white;
+    text-transform: capitalize;
+}
+.ptwo{
+    display: none;
+    color: white;
+    text-transform: capitalize;
+}
+.don{
+    display: inline-block;
+}
